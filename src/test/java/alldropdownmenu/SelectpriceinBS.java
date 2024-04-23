@@ -32,7 +32,7 @@ public class SelectpriceinBS extends Bookshelves{
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
-		
+		System.out.println("Satya test");
 		displayBookshelves();
 		
 		Thread.sleep(3000);
